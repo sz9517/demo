@@ -1,6 +1,6 @@
  holes = document.querySelectorAll('.hole');
  scoreBoard = document.querySelector('.score');
- moles = document.querySelectorAll('.mole');
+ rats = document.querySelectorAll('.rat');
  button = document.querySelector('#start');
  var lastHole;
  var timeUp = false;
@@ -55,4 +55,4 @@
      scoreBoard.textContent = score;
  }
 
- moles.forEach(mole => mole.addEventListener('click', bonk));
+ rats.forEach(rat => rat.addEventListener('click', bonk));
