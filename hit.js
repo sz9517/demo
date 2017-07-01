@@ -24,7 +24,7 @@
      return hole;
  }
 
- //地鼠出洞 時間到停止
+ //地鼠出洞換洞 時間到停止
  function peep() {
      time = randomTime(200, 1000);
      hole = randomHole(holes);
